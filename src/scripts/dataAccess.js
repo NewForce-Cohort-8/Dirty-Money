@@ -1,3 +1,4 @@
+
 const state = {
     plumbers: [],
     poisons: []
@@ -20,6 +21,23 @@ export const usePlumbers = () => {
     return newState.plumbers
 }
     
+
+export const sendPlumber = (plumberObject) => {
+    const fetchOptions = {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(plumberObject)
+    }
+
+
+    return fetch(`${API}/plumbers`, fetchOptions)
+        .then(response => response.json())
+        .then(() => {
+            document.dispatchEvent(new CustomEvent("stateChanged"));
+        })
+}
 
 
 
