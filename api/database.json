@@ -1,0 +1,58 @@
+{
+    "plumbers": [
+        {
+          "id": 1,
+          "name": "Mario Mario"
+        },
+        {
+          "id": 2,
+          "name": "Luigi Mario"
+        },
+        {
+          "id": 3,
+          "name": "Wario Wario"
+        },
+        {
+          "id": 4,
+          "name": "WaLuigi Wario"
+        }
+    ],
+    "poisons": [
+        {
+          "id": 1,
+          "species": "Atropa belladonna",
+          "commonName": "Deadly Nightshade",
+          "fatal": true,
+          "antidote": "Atropine "
+        },
+        {
+          "id": 2,
+          "species": "Conium maculatum",
+          "commonName": "Hemlock",
+          "fatal": true,
+          "antidote": "none"
+        },
+        {
+          "id": 3,
+          "species": "Aconitum",
+          "commonName": "Wolf's Bane",
+          "fatal": true,
+          "antidote": "atropine"
+        },
+        {
+          "id": 4,
+          "species": "Cascabela thevetia",
+          "commonName": "Yellow oleander",
+          "fatal": true,
+          "antidote": "Digoxin-specific antibody fragments"
+        },
+        {
+          "id": 5,
+          "species": "Datura stramonium",
+          "commonName": "Devil's trumpets",
+          "fatal": true,
+          "antidote": "physostigmine"
+        }
+      ]
+
+}
